@@ -17,7 +17,7 @@ def translate_task(task, source, target):
     TargetLanguajeCode = target)
     
     return response
-
+ 
 def get(event, context):
     table = dynamodb.Table(os.environ['DYNAMODB_TABLE'])
 
